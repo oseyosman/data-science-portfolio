@@ -1,0 +1,26 @@
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Environments
+env/
+venv/
+.venv/
+ENV/
+
+# Large Datasets (>100MB exceeds GitHub push limits)
+Assignment 3/matmob.data.sample.csv
+*.csv.gz
+
+# Archive & Mac Application Files
+*.numbers
+*.zip
+*.tmp
